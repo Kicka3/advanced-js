@@ -3,4 +3,7 @@ const stringToNumber = function(str){
   const numb = parseInt(str)
   return numb;
 }
-
+const stringToNumber1 = function(str){
+  let a = Number(str);
+  return a;
+}
