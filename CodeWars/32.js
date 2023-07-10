@@ -1,8 +1,19 @@
-function findAverage(array) {
-  let sum = 0;
-if (array.length === 0) return 0;
-for (const num of array) {
-  sum += num;
+function baseCost(days, rate) {
+  return days * rate;
 }
-return sum / array.length;
+
+function discountRate(days) {
+  if ( days >= 7 ) {
+    return 50;
+  }
+  else if ( days >= 3 ) {
+    return 20;
+  }
+  else {
+    return 0;
+  }
+}
+
+function rentalCarCost(days) {
+  return baseCost(days, 40) - discountRate(days);
 }
