@@ -9,10 +9,7 @@ h1, h2, p {
 .menu {
   width: 80%;
   background-color: burlywood;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin: auto;
   padding: 20px;
 }
 
