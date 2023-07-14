@@ -14,7 +14,7 @@ h1 {
 }
 
 .one {
-  background-color: rgb(255, 127, 0);
+  background-color: rgb(255, 0, 0);
 }
 
 .two {
@@ -22,5 +22,5 @@ h1 {
 }
 
 .three {
-  background-color: rgb(255, 0, 255);
+  background-color: rgb(0, 0, 0);
 }
