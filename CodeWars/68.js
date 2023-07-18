@@ -9,4 +9,5 @@ function positiveSum(arr) {
      } 
    }
    return counter;
+   
  }

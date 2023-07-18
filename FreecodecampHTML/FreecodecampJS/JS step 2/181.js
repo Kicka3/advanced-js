@@ -1,0 +1,1 @@
+let yourArray = ["loc", 5, true, false, "babulya"]; // Change this line
