@@ -10,3 +10,10 @@ function high(x){
    const best_score_word = words_array[best_score_index]
    return best_score_word
 }
+
+function findDifference(a, b) {
+  
+  return Math.abs((a[0] * a[1] * a[2]) - (b[0] * b[1] * b[2]));
+  
+  
+}
