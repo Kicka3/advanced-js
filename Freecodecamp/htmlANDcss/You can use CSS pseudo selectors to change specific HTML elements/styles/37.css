@@ -125,3 +125,21 @@ tr.total:hover {
 td.current {
   font-style: italic;
 }
+
+tr.data {
+  background-image: linear-gradient(to bottom, #dfdfe2 1.845rem, white 1.845rem);
+}
+
+tr.data th {
+  text-align: left;
+  padding-top: 0.3rem;
+  padding-left: 0.5rem;
+}
+
+tr.data th .description {
+  display: block;
+  font-style: italic;
+  font-weight: normal;
+  padding: 1rem 0 0.75rem;
+  margin-right: -13.5rem;
+}
