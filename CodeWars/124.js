@@ -1,13 +1,4 @@
-function smallEnough(a, limit){
-  for (let i = 0; i < a.length; i++) {
-    if (a[i] > limit) {
-      return false;
-    }
-  }
-return true;
-}
 
-// Small enough? - Beginner
 function tribonacci(signature,n){
   let arr=[...signature];
   for (let i=0;i<n;i++){
