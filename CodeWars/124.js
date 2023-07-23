@@ -7,3 +7,4 @@ function tribonacci(signature,n){
   
   return arr.slice(0,-3)
 }
+
