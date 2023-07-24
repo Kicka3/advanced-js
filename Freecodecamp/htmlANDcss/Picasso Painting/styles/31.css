@@ -98,4 +98,9 @@ body {
   left: 0;
 }
 
+#gray-mask {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(167, 162, 117);
 
+}
