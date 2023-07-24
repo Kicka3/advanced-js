@@ -64,12 +64,12 @@ html {
   }
 }
 
-@media (min-width: 769px ) and (max-width: 1199px){
+@media (max-width: 1199px) and (min-width: 769px) {
   #piano {
     width: 675px;
   }
 
   .keys {
-    width: 633px;
+    width: 633px
   }
 }
