@@ -173,8 +173,8 @@ body {
 }
 
 #triangles {
-  width: 250px;
-  height: 550px;
+    width: 250px;
+    height: 550px;
 }
 
 .triangle {
@@ -199,10 +199,10 @@ body {
 }
 
 .guitar {
-  width: 150px;
-  height: 120px;
-  background-color: Goldenrod;
-  border-radius: 50%;
+width: 150px;
+height: 120px;
+background-color: Goldenrod;
+border-radius: 50%;
 }
 
 #guitar-left {
@@ -238,8 +238,14 @@ body {
   border-radius: 20px 50%;
 }
 
-.right  {
+.right {
   position: absolute;
   top: 15px;
   right: 30px;
+}
+
+.left {
+  position: absolute;
+  top: 15px;
+  left: 30px;
 }
