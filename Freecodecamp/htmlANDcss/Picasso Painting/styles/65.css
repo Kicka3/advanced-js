@@ -228,5 +228,12 @@ body {
   position: absolute;
   top: 45px;
   left: 200px;
-z-index: 3;
+  z-index: 3;
+}
+
+.eyes {
+  width: 35px;
+  height: 20px;
+  background-color: #8B4513;
+  border-radius: 20px 50%;
 }
