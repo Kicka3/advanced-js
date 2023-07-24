@@ -225,7 +225,8 @@ body {
   width: 200px;
   height: 30px;
   background-color: #D2691E;
-position: absolute;
-top: 45px;
-left: 200px;
+  position: absolute;
+  top: 45px;
+  left: 200px;
+z-index: 3;
 }
