@@ -1,4 +1,4 @@
-44 {
+body {
   background-color: rgb(184, 132, 46);
 }
 
@@ -156,4 +156,5 @@
   width: 180px;
   height: 150px;
   background-color: rgb(45, 31, 19);
+border-radius: 50%;
 }
