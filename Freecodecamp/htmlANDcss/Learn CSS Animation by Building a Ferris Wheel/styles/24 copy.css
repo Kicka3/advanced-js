@@ -1,4 +1,4 @@
-25 {
+.wheel {
   border: 2px solid black;
   border-radius: 50%;
   margin-left: 50px;
@@ -86,13 +86,12 @@
 @keyframes cabins {
   0% {
     transform: rotate(0deg);
-    background-color: yellow;
+  
   }
   50% {
-        background-color: purple;
+    background-color: purple;
   }
   100% {
     transform: rotate(-360deg);
-
   }
 }
