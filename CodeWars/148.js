@@ -9,3 +9,7 @@ function grabDoll(dolls){
   
   return bag.slice(0,3);
 }
+
+
+
+const grabDoll = dolls => dolls.filter(e => e == 'Hello Kitty' || e == 'Barbie doll').slice(0,3)
