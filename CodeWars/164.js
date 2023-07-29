@@ -11,3 +11,6 @@ function smaller(nums) {
 
 const smaller = nums => nums.map((item, index) => nums.slice(index).filter(num => num < item).length)
  smaller([5, 4, 3, 2, 1])
+
+ const solution = str => str.split('').reverse().join('');
+  
