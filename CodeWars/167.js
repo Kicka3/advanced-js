@@ -20,3 +20,7 @@ const sumArray = array => {
 sumArray([ 0, 1, 6, 10, 10 ]);
 sumArray([]);
 sumArray([ -6, -20, -1, -10, -12 ]);
+
+function towerBuilder(n) {
+  return [...Array(n)].map((_,i)=>" ".repeat(n-1-i)+"*".repeat(i*2+1)+" ".repeat(n-1-i))
+}
