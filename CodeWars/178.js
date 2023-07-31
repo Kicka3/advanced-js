@@ -1,0 +1,1 @@
+const fakeBin = x => x.split('').map(element => Number(element) < 5 ? '0' : '1').join('')
