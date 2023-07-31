@@ -55,3 +55,9 @@ img {
   grid-column: 1 / -1;
   position: relative;
 }
+
+.hero-title {
+  text-align: center;
+  color: orangered;
+  font-size: 8rem;
+}
