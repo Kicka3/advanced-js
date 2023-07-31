@@ -1,3 +1,4 @@
+// Number #1
 function areYouPlayingBanjo(name) {
    let arrNames = name.toLowerCase().split(' ')
   console.log(arrNames)
@@ -14,3 +15,7 @@ function areYouPlayingBanjo(name) {
   }
 }
 
+
+// Number #2
+const areYouPlayingBanjo = name => name.toLowerCase().split(' ')
+.map(item => item[0] === 'r' ? name + ' plays banjo' : name + ' does not play banjo').join('')
