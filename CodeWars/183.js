@@ -21,4 +21,5 @@ function addLength(str) {
 }
 
 
+
 const addLength = str => str.split(' ').map(elem => elem + ' ' + elem.length)
