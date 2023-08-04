@@ -1,6 +1,4 @@
-function stringy(size) {
-  return ''.padStart(size, '10') 
-}
+
 
 Array.prototype.square=function(){
   return this.map(v=>v*v)
