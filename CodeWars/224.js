@@ -13,3 +13,9 @@ distinct([1,1,2,1,2,3,4,2]);
 //     return chars.indexOf(element) !== index;
 // });
 // console.log(dupChars);
+
+function include(arr, item){
+  
+  return arr.includes(item)
+   
+ }
