@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="" />
+    <mapping directory="$PROJECT_DIR$/../../Projects/Todoshe" vcs="" />
+    <mapping directory="$PROJECT_DIR$/../../Projects/social-net" vcs="" />
+    <mapping directory="$PROJECT_DIR$/../../Projects/socialapp" vcs="" />
   </component>
 </project>
