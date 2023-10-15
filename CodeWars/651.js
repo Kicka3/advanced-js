@@ -1,4 +1,4 @@
-greet = hw => "hello world!"
+
 
 (function () {
    var prev = 22915696;
