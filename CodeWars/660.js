@@ -1,0 +1,1 @@
+const factors = x => [...Array(x + 1).keys()].filter(i=> x % i ===0).reverse()
