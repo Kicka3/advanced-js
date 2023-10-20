@@ -1,11 +1,10 @@
-//1. Создайте полную (глубокую) копию объекта user
-let deepCopyUser = structuredClone(user);
-const deepCopyUser2 = JSON.parse(JSON.stringify(user))
-console.log("1=============================================")
-
-
-//2. Создайте полную (глубокую) массива students
-let deepCopyStudents = students.map(el => ({...el}));
-console.log(deepCopyStudents)
-console.log(11111111111111111)
-console.log("2=============================================")
+function GrεεκL33t(str){
+   let dict = {a:'α',b:'β',d:'δ',e:'ε',i:'ι',k:'κ',n:'η',o:'θ',p:'ρ',r:'π',t:'τ',u:'μ',
+      v:'υ',w:'ω',x:'χ',y:'γ'}
+   return str.replace(/./g,v=>{
+      if (dict[v.toLowerCase()]){
+         return v===v.toUpperCase()?dict[v.toLowerCase()]:dict[v]
+      }
+      return v.toLowerCase()
+   })
+}
