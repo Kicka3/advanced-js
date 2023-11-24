@@ -1,3 +1,1 @@
-function opposite(number) {
-   return(-number);
-}
+const findAverage = (nums) => nums.reduce((acc, cur) => acc + cur) / nums.length
