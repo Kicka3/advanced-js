@@ -1,4 +1,3 @@
-const addTask = (titleInput: string) => {
-   let newTask = {id: v1(), title: titleInput, isDone: false}
-   setTasks([newTask, ...tasks])
-}
+const whoseMove = (lastPlayer, win) => (lastPlayer === 'black' && win === true) ? 'black' :
+   (lastPlayer === 'black' && win === false) ? 'white' :
+      (lastPlayer === 'white' && win === true) ? 'white' : 'black'
