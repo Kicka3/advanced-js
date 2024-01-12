@@ -7,4 +7,4 @@ function battle(x, y) {
    return a < b ? y : a > b ? x : 'Tie!'
 }
 
-console.log(battle("ONE", "TWO"))
+console.log(battle("ONE", "TWO"));
