@@ -1,3 +1,4 @@
+import { deleteDecksTC } from '../../../../../src/features/decks/decks-thunks.ts';
 function merryChristmas(s1,s2){
    let check = 'Merry Christmas!'.split``.sort().join``
    for (let i=0;i<s2.length;i++){
