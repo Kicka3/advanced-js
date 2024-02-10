@@ -1,8 +1,4 @@
-function increasingNumber(x, n) {
-   for (let i=1;i<=n;i++){
-      while (x%i!==0){
-         x++
-      }
-   }
-   return x
+function sortLetters(a) {
+   let arr=[].concat(...a).filter(v=>typeof v === 'string').join`/`.toUpperCase().split`/`
+   return [arr.filter(v=>/[AEUIO]/.test(v)),arr.filter(v=>/[^AEUIO]/.test(v))]
 }
