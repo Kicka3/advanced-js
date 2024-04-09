@@ -9,3 +9,4 @@ function solve(arr) {
 
    return steps;
 }
+
