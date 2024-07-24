@@ -1,3 +1,7 @@
-function arrayMash (array1, array2) {
-   return [].concat(...array1.map((v,i)=>[array1[i],array2[i]]))
-};
+function sc(obj){
+   obj=obj.toString().replace(/[^\d-,]/gi,'')
+   if (obj.includes(',')){
+      return obj===obj.split(',').reverse().join(',')
+   }
+   return obj===obj.split('').reverse().join('')
+}
