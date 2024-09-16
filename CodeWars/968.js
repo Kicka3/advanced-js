@@ -1,4 +1,4 @@
-function averageLength(arr) {
-   let avg= Math.round(arr.reduce((a,b)=>a+b.length,0)/arr.length)
-   return arr.map(v=>v.length===avg?v:v[0].repeat(avg))
+function sortLetters(a) {
+   let arr=[].concat(...a).filter(v=>typeof v === 'string').join`/`.toUpperCase().split`/`
+   return [arr.filter(v=>/[AEUIO]/.test(v)),arr.filter(v=>/[^AEUIO]/.test(v))]
 }
