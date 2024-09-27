@@ -1,0 +1,1 @@
+let folding = (a,b) => (a % b) ? ~~(a/b) + folding(b, a%b) : a/b;
