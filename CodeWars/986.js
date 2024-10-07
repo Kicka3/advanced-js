@@ -1,0 +1,1 @@
+const fSquared=(arr)=>arr.every(v=>Number.isFinite(v)) ? arr.filter(v=>(v*v)%2===0).reduce((a,b)=>a+b*b,0):undefined
