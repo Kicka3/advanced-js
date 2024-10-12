@@ -1,7 +1,11 @@
-function evenNumbersBeforeFixed(sequence, fixedElement) {
-   let index = sequence.indexOf(fixedElement);
-   if (index===-1) return -1;
-   let arr = sequence.slice(0,index).map(v=>v%2===0);
-   if (arr.every(v=>v===false)) return 0;
-   return arr.filter(v=>v!==false).lastIndexOf(true)+1
+function add3bits(x, y, z) {
+   if (x===0&&y===0&&z===0) return [0, 0]
+   if (x===0&&y===0&&z===1) return [0, 1]
+   if (x===0&&y===1&&z===0) return [0, 1]
+   if (x===0&&y===1&&z===1) return [1, 0]
+   if (x===1&&y===0&&z===0) return [0, 1]
+   if (x===1&&y===0&&z===1) return [1, 0]
+   if (x===1&&y===1&&z===0) return [1, 0]
+   if (x===1&&y===1&&z===1) return [1, 1]
+   return null
 }
