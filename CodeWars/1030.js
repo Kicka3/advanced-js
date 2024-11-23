@@ -1,4 +1,4 @@
-const xMarksTheSpot = (input) => {
+const xMarksXTheSpot = (input) => {
    let count=0;
    let x=0;
    let y=0;
